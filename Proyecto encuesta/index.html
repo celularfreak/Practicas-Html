@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="styleseet" href="styles.css"
+	<title>Encuesta freeCodeCamp</title>
+</head>
+<body>
+	<header class="header">
+		<h1 id="title">Encuesta freeCodeCamp</h1>
+		<p id="description">Ayudanos a mejorar</p>
+	</header>
+	<form id="survey-form">
+		<div class="form-group">
+			<label id="name-label">Nombre</label>
+			<input type="text" id="name" placeholder="Introduce tu nombre" required>
+		</div>
+		<div class="form-group">
+			<label id="email-label">Correo</label>
+			<input type="email" id="email" placeholder="Introduce un email" required>
+		</div>
+		<div class="form-group">
+			<label id="number-label">Edad</label>
+			<input type="number" id="number" min="16" max="120" placeholder="Edad">
+		</div>
+		<div class="form-group">
+			<p>A que te dedicas actualmente?</p>
+			<select id="dropdown">
+				<option disabled selected value>Selecciona</option>
+				<option value="estudiante">Estudiante</option>
+				<option value="trabajador">Trabajador</option>
+				<option value="otro">Otro</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<p>Recomendarias freeCodeCamp?</p>
+			<label>
+				<input name="user-recommend" value="definitely" type="radio" class="input-radio" checked>
+				Si, definitivamente
+			</label>
+			<label>
+				<input name="user-recommend" value="maybe" type="radio" class="input-radio">
+				Quizas
+			</label>
+			<label>
+				<input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+				No estoy seguro
+			</label>
+		</div>
+		<div class="form-group">
+			<p>Que podriamos mejorar?</p>
+			<label>
+				<input type="checkbox" value="explicaciones">
+				Explicaciones
+			</label>
+			<label>
+				<input type="checkbox" value="contenido">
+				Contenido
+			</label>
+			<label>
+				<input type="checkbox" value="cursos">
+				Cursos
+			</label>
+		</div>
+		<div class="form-group">
+			<p>Comentarios</p>
+			<textarea placheolder="Comentarios"></textarea>
+		</div>
+		<div class="form-group">
+			<button type="submit" id="submit">Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
