@@ -1,0 +1,104 @@
+* {
+	background: #f1f1f1;
+}
+
+.container	{
+	width: 100%;
+}
+
+.card {
+	background: #2d7895;
+	background: radial-gradient(circle, #2d7895 0%, #003245 100%) 100%;
+	width: 40%;
+	height: 300px;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.card img {
+	background-color: transparent;
+	width: 80px;
+}
+
+.card-header {
+	background-color: transparent;
+}
+.card-header h1{
+	background-color: transparent;
+	font-family: 'Rubik', sans-serif;
+	font-size: 50px;
+	color: #FFF;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.card-header p {
+	background-color: transparent;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+.card-body *{
+	background-color: #FFF;
+}
+
+.card-body {
+	background-color: #FFF;
+	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-body h1 {
+	font-family: 'Permanent Marker', sans-serif;
+	font-size: 60px;
+	color: #000;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.card-body img {
+	width: 120px;
+	border: 5px solid #2d7895;
+	border-radius: 50%;
+	margin: 20px auto 0 10px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.button-avatar h3, .button-theme h3 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	color: #999;
+}
+.button-avatar p, .button-theme p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	border: none;
+	color: #2d7895 ;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+}
